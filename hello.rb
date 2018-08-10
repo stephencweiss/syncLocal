@@ -1,2 +1,3 @@
-name = #{ARGV.first}! || "World"
+#Default name is "world"
+name = {ARGV.first}! || "World"
 puts "Hello, #{name}!"
